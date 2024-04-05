@@ -12,9 +12,9 @@
 		      $mail->IsHTML(true);
 		      $mail->CharSet = 'UTF-8';
 		      //$mail->SMTPDebug = 2; 
-		      $mail->Username = "surendrakmr281@gmail.com";
-		      $mail->Password = "tkflwjryqflepupd";
-		      $mail->SetFrom("surendrakmr281@gmail.com");
+		      $mail->Username = "your-email";
+		      $mail->Password = "your-password";
+		      $mail->SetFrom("your-email");
 		      $mail->Subject = $subject;
 		      $mail->Body =$msg;
 		      $mail->AddAddress($to);

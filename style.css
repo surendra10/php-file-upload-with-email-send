@@ -1,0 +1,48 @@
+*{
+    background-color: #5b94f0;
+}
+
+.table{
+    border: 2px solid;
+    border-color: white;
+    background-color: white;
+}
+th{
+    border-color: white;
+    border: 1px solid;
+    font-size: 22px;
+}
+td{
+    border-color: white;
+    border: 1px solid;
+    font-size: 16px;
+    text-align: center;
+}
+.heading{
+    color: white;
+    text-align: center;
+}
+.setting{
+    text-align: center;
+}
+.update, .delete, .view{
+    background-color: green;
+    color: white;
+    border: 0px;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 20px;
+    width: 80px;
+    
+}
+.delete{
+    background-color: red;
+}
+.view{
+    background-color: red;
+}
+.viewrecord{
+    align: center;
+}
